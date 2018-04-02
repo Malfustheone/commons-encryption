@@ -11,7 +11,7 @@ import org.springframework.core.env.PropertySource;
 import org.springframework.core.io.support.EncodedResource;
 import org.springframework.core.io.support.PropertySourceFactory;
 
-public class EncryptionFactory implements PropertySourceFactory {
+public class EncryptedPropertySourceFactory implements PropertySourceFactory {
 
 	@Override
 	public PropertySource<?> createPropertySource(String arg0, EncodedResource arg1) throws IOException {
